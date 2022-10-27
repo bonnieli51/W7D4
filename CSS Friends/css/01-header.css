@@ -1,2 +1,39 @@
 /* PHASE 1: Header */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 300;
+    background: white;
+}
 
+
+.header {
+    background: red;
+} 
+
+.header a {
+    display: block ;
+    padding: 20px 20px; 
+}
+
+.logo {
+    float: left;
+}
+
+.logo:hover {
+    background: black;
+  }
+
+.right-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-list > li{
+    border-left: 1px solid black;
+   
+}
+
+.right-list li:hover {
+    background: black;
+}
